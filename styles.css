@@ -1,0 +1,179 @@
+/* === RESET === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 100%;
+  line-height: 1.6;
+  background: linear-gradient(68.15deg, #f0c758 16.62%, #e9db8b 85.61%);
+  color: #1f2937;
+}
+
+/* === VARIÁVEIS === */
+:root {
+  --primary-color: #f0c758;
+  --secondary-color: #e9db8b;
+  --text-color: #1f2937;
+  --text-color-ligth: #557097;
+  --bg-light: #f9fafb;
+  --bg-dark: #111827;
+  --white: #ffffff;
+}
+
+/* === HEADER === */
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.cabecalho-imagem {
+  height: 50px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  color: var(--text-color);
+  text-decoration: none;
+}
+.cabecalho-menu a:hover {
+  color: var(--text-color-ligth);
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+/* === MAIN SECTIONS === */
+.conteudo {
+  margin-bottom: 20px;
+  border-top: 0.4px solid var(--bg-light);
+}
+
+.conteudo-principal {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito-imagem {
+  margin-top: 20px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-weight: 400;
+  font-size: 40px;
+  align-self: center;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--text-color-ligth);
+}
+
+.conteudo-principal-escrito-botao {
+  margin-top: 20px;
+  background-color: var(--bg-dark);
+  color: var(--white);
+  width: 140px;
+  height: 60px;
+  font-size: 18px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.conteudo-principal-escrito-botao:hover {
+  font-size: 20px;
+}
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.conteudo-secundario-paragrafo {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* === PORTFÓLIO === */
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--white);
+  border: 1px solid #e5e7eb;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.portfolio a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.portfolio a:hover {
+  font-size: 18px;
+}
+
+/* === REDES SOCIAIS === */
+.redes-sociais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.redes-sociais a:hover {
+  font-size: 18px;
+}
+
+.redes-sociais a:visited {
+  text-decoration: none;
+  color: var(--text-color-ligth);
+}
+
+/* === FOOTER === */
+footer {
+  background-color: var(--bg-dark);
+  color: var(--white);
+  text-align: center;
+  padding: 0.6rem;
+  font-size: 0.875rem;
+}
