@@ -2,6 +2,7 @@
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-28a745)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
 
 Landing page pessoal desenvolvida para apresentar meu perfil como desenvolvedora em retomada aos estudos sobre programação, com foco em tecnologias modernas como React, React Native e Node.js.
@@ -49,6 +50,12 @@ Este projeto é o ponto de partida para minha nova fase como desenvolvedora. Aqu
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ivanna%20Almeida-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ivanna-almeida/)
 [![GitHub](https://img.shields.io/badge/GitHub-ivannatech-000?style=flat&logo=github)](https://github.com/ivannatech)
+
+---
+
+## 🔗 Acesse o projeto online
+
+[👉 Clique aqui para visitar a landing page](https://ivannatech.github.io/landing-page-com-html-e-css/)
 
 ---
 
