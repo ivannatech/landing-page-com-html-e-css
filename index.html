@@ -67,9 +67,8 @@
                 </div>
                 <img class="conteudo-principal-escrito-imagem" src="/assets/perfil_ivanna.jpg"
                     alt="Foto de Perfil Ivanna">
-                <button class="conteudo-principal-escrito-botao"><a href="#contato"
-                        class="conteudo-principal-escrito-botao">Me Adicione!</a>
-                </button>
+                <button id="botao-contato" class="conteudo-principal-escrito-botao">Me Adicione!</button>
+
             </section>
 
             <section id="sobre" class="conteudo-secundario">
@@ -100,6 +99,12 @@
         <footer>
             <p>&copy; 2025 Ivanan Tech. Todos os direitos reservados.</p>
         </footer>
+
+        <script>
+            document.getElementById("botao-contato").addEventListener("click", function () {
+                window.location.href = "#contato";
+            });
+        </script>
     </body>
 </body>
 
