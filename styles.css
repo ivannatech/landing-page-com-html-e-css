@@ -177,3 +177,60 @@ footer {
   padding: 0.6rem;
   font-size: 0.875rem;
 }
+
+/* === RESPONSIVO === */
+@media (max-width: 768px) {
+
+  /* Conteúdo principal em coluna */
+  .conteudo-principal {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .conteudo-principal-escrito-titulo {
+    font-size: 28px;
+  }
+
+  .conteudo-principal-escrito-subtitulo {
+    font-size: 18px;
+  }
+
+  .conteudo-principal-escrito-botao {
+    width: 100%;
+    max-width: 200px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .conteudo-principal-escrito-imagem {
+    height: 220px;
+  }
+
+  /* Parágrafos da seção secundária */
+  .conteudo-secundario-paragrafo {
+    font-size: 14px;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  /* Portfólio responsivo */
+  .portfolio {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .portfolio h2 {
+    font-size: 20px;
+  }
+
+  .portfolio article h3 {
+    font-size: 16px;
+  }
+
+  /* Redes Sociais */
+  .redes-sociais a {
+    font-size: 14px;
+  }
+}
